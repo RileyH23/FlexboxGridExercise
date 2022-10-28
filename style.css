@@ -59,3 +59,26 @@ section:not(#three) {
   }
   
   /* START BELOW THIS LINE */
+
+  #one{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+  }
+
+
+
